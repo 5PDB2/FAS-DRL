@@ -1,0 +1,19 @@
+# requirements.txt
+
+# The RL Algorithm
+stable-baselines3==2.2.1
+
+# The Environment Interface
+gymnasium==0.29.1
+shimmy>=1.3.0  # For compatibility if using legacy gym code
+
+# Math and Physics
+numpy>=1.24.0
+
+# Plotting and Reporting
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Optional: For nicer progress bars during training
+tqdm
+rich
